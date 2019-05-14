@@ -312,3 +312,7 @@ form .form-control-submit:hover{
 	}
 	
 }
+.column{
+	width: 250px;
+}
+
