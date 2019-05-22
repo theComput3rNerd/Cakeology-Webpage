@@ -8,12 +8,16 @@
   box-sizing: border-box;
 }
 
+/* this is for the text */
+
 body {
 	margin: 0;
 	background: #fff;
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 400;
 }
+
+/*This part is for all the content on this webpage*/
 
 .contentcontent {
   height: 200vh;
@@ -25,7 +29,7 @@ body {
   place-items: center;
 }
 
-/* navigation styles start here */
+/* This part is for the navigation */
 
 header {
   background: #15161b;
@@ -37,6 +41,7 @@ header {
 
 /* changed this from the tutorial video to
    allow it to gain focus, making it tabbable */
+
 .nav-toggle {
   position: absolute !important;
   top: -9999px !important;
@@ -145,6 +150,7 @@ nav a:hover {
     // all: unset; /* this causes issues with Edge, since it's unsupported */
     
     /* the following lines are not from my video, but add Edge support */
+
     position: relative;
     text-align: left;
     transition: none;
@@ -152,8 +158,9 @@ nav a:hover {
     background: none;
     top: initial;
     left: initial;
+
     /* end Edge support stuff */
-    
+
     grid-column: 3 / 4;
     display: flex;
     justify-content: flex-end;
@@ -191,6 +198,9 @@ nav a:hover {
     transform: scale(1,1);
   }
 }
+
+/*This is for the Contact Form*/
+
 .form-control	{
 					width: 600px;
 					background: transparent;
@@ -222,40 +232,8 @@ form .form-control-submit:hover{
 					background-color: white;
 				}
 
-/* Style all font awesome icons */
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  height: 58px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  /* border-radius: 50%; */
-}
+/*This is the gallery*/
 
-/* Add a hover effect if you want */
-.fa:hover {
-  opacity: 0.7;
-}
-
-/* Set a specific color for each brand */
-
-/* Facebook */
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-  margin: 0px 0px;
-}
-
-/* Twitter */
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
-}
-.icons	{
-	color: #14151a;
-}
 .gallery	{
 	margin: 10px 50px;
 }
