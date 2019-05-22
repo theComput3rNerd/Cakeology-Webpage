@@ -260,7 +260,7 @@ form .form-control-submit:hover{
 			height: 60%;
 		}
 		.map{
-			width:100%
+			width: 100%
 		}
 		.icons{
 			width: 10%;
@@ -269,21 +269,21 @@ form .form-control-submit:hover{
 }
 
 @media screen and (max-width:640px){
-		#container{
-			width: 100%;
-		}
-		.logo{
-			height: 20%;
-		}
-		.icons{
-			width: 25%;
-			height: 10%;
-		}
+	#container{
+		width: 100%;
+	}
+	.logo{
+		height: 15%;
+	}
+	.icons{
+		width: 7.5%;
+		height: 10%;
+	}
 }
 
 @media screen and (max-width:320px){
 	#container{
-		width:320px
+		width:100%;
 	}
 	.icons{
 		width: 5%;
