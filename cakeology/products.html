@@ -11,6 +11,104 @@
   <script type="text/javascript" src="js/lightbox-plus-jquery.min.js"></script>
 </head>
 
+    <style type="text/css">
+    .bottomleft {
+  position: absolute;
+  bottom: 0;
+  left: 16px;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Create three columns of equal width */
+.columns {
+  float: left;
+  width: 33.3%;
+  padding: 8px;
+}
+
+/* Style the list */
+.price {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+/* Add shadows on hover */
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+/* Pricing header */
+.price .header {
+  background-color: #111;
+  color: white;
+  font-size: 25px;
+}
+            
+.header1 {
+  background-color: deeppink;
+  color: white;
+  font-size: 20px;
+}
+
+/* List items */
+.price li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Grey list item */
+.price .grey {
+  background-color: #eee;
+  font-size: 20px;
+}
+
+/* The "Sign Up" button */
+.button {
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Change the width of the three columns to 100% 
+(to stack horizontally on small screens) */
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+  }
+}
+             .button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color:black;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: deeppink}
+
+.button:active {
+  background-color: darkblue;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+    
+    </style>
 <body>
   <div id="container">
 
@@ -31,229 +129,360 @@
       <span></span>
     </label>
   </header>
-<div class="products">
+      
 
-	<br><br><br></br></br>
+	<br><br><br>
 
 	<h1>Our Products</h1>
+       
+      <div class="columns">
+               
+  <ul class="price">
+    <li class="header">Chocolate Truffle Cake</li>
+    <li class="grey"><label>Price</label><br style="font-size:">Ksh.1000 Per ½ Kg</li>
+    <li class="grey"><a href="contact.html" class="button">BUY NOW!!!</a></li>
+      
+  </ul>
 
-	<ul>
+      </div>
+      <div class="columns">
+               
+  <ul class="price">
+    <li class="header">Fudge Cake</li>
+    <li class="grey"><label>Price</label><br style="font-size:">Ksh.1000 Per ½ Kg</li>
+    <li class="grey"><a href="contact.html" class="button">BUY NOW!!!</a></li>
+      
+    </ul>
+          
+      </div>
+      <div class="columns">
+               
+  <ul class="price">
+    <li class="header">White Forest Sponge Cake</li>
+    <li class="grey"><label>Price</label><br style="font-size:">Ksh.1000 Per ½ Kg</li>
+    <li class="grey"><a href="contact.html" class="button">BUY NOW!!!</a></li>
+      
+    </ul>
+          
+      </div>
+      <div class="columns">
+               
+  <ul class="price">
+    <li class="header">Black Forest Sponge Cake</li>
+    <li class="grey"><label>Price</label><br style="font-size:">Ksh.1000 Per ½ Kg</li>
+    <li class="grey"><a href="contact.html" class="button">BUY NOW!!!</a></li>
+      
+    </ul>
+          
+      </div>
+      <div class="columns">
+               
+  <ul class="price">
+    <li class="header">Tiramisu Sponge Cake</li>
+    <li class="grey"><label>Price</label><br style="font-size:">Ksh.1000 Per ½ Kg</li>
+    <li class="grey"><a href="contact.html" class="button">BUY NOW!!!</a></li>
+      
+    </ul>
+          
+      </div>
+      
+      <div class="columns">
+               
+  <ul class="price">
+    <li class="header">Coffee Walnut Cake</li>
+    <li class="grey"><label>Price</label><br style="font-size:">Ksh.1000 Per ½ Kg</li>
+    <li class="grey"><a href="contact.html" class="button">BUY NOW!!!</a></li>
+      
+    </ul>
+          
+      </div>
+      
+	   <div class="columns">
+               
+  <ul class="price">
+    <li class="header">Carrot Cake</li>
+    <li class="grey"><label>Price</label><br style="font-size:">Ksh.1000 Per ½ Kg</li>
+    <li class="grey"><a href="contact.html" class="button">BUY NOW!!!</a></li>
+      
+    </ul>
+          
+      </div> 
+      <div class="columns">
+               
+  <ul class="price">
+    <li class="header">Red Velvet Cake</li>
+    <li class="grey"><label>Price</label><br style="font-size:">Ksh.1000 Per ½ Kg</li>
+    <li class="grey"><a href="contact.html" class="button">BUY NOW!!!</a></li>
+      
+    </ul>
+          
+      </div>
+      <div class="columns">
+               
+  <ul class="price">
+    <li class="header">Fruit Cake</li>
+    <li class="grey"><label>Price</label><br style="font-size:">Ksh.1000 Per ½ Kg</li>
+    <li class="grey"><a href="contact.html" class="button">BUY NOW!!!</a></li>
+      
+    </ul>
+          
+      </div>
+      <div class="columns">
+               
+  <ul class="price">
+    <li class="header">Vanilla Flavoured Cake</li>
+    <li class="grey"><label>Price</label><br style="font-size:">Ksh.1000 Per ½ Kg</li>
+    <li class="grey"><a href="contact.html" class="button">BUY NOW!!!</a></li>
+      
+    </ul>
+          
+      </div>
+      <div class="columns">
+               
+  <ul class="price">
+    <li class="header">Lemon Flavoured Cake</li>
+    <li class="grey"><label>Price</label><br style="font-size:">Ksh.1000 Per ½ Kg</li>
+    <li class="grey"><a href="contact.html" class="button">BUY NOW!!!</a></li>
+      
+    </ul>
+          
+      </div>  
+      
+      <div class="columns">
+               
+  <ul class="price">
+    <li class="header">Cheese Cake</li>
+    <li class="grey"><label>Price</label><br style="font-size:">Ksh.1000 Per ½ Kg</li>
+    <li class="grey"><a href="contact.html" class="button">BUY NOW!!!</a></li>
+      
+    </ul>
+          
+      </div>
+	
 
-	<table width="1250" cellspacing="25" border="7.5" id="table" style="background-color: #15161b">
-		<thead style="background: Gainsboro">
-			<tr>
-				<th width="200">Product Image</th>
-				<th width="150">Product Name</th>
-				<th width="150">Product Price</th>
-				<th width="650">Description</th>
-			</tr>
-		<thead>
-		<tbody>
-			<tr>
-				<td><img src="../cakeology/images/chocolate_truffle_cake" alt="chocolate_truffle_cake"width="200" height="200"/></td>
-				<td><center>Chocolate Truffle Cake</center></td>
-				<td><center>Ksh.1000 Per ½ Kg</center></td>
-				<td><center>Description</td>
-			</tr>
-			<tr>
-				<td><img src="../cakeology/images/fudge_cake" alt="fudge_cake"width="200" height="200"/></td>
-				<td><center>Fudge Cake</center></td>
-				<td><center>Price</center></td>
-				<td><center>Description</td>
-			</tr>
-			<tr>
-				<td><img src="../cakeology/images/white_forest_sponge_cake" alt="white_forest_sponge_cake"width="200" height="200"/></td>
-				<td><center>White Forest Sponge Cake</center></td>
-				<td><center>Ksh.1000 Per ½ Kg</center></td>
-				<td><center>Description</td>
-			</tr>
-			<tr>
-				<td><img src="../cakeology/images/black_forest_sponge_cake" alt="black_forest_sponge_cake"width="200" height="200"/></td>
-				<td><center>Black Forest Sponge Cake</center></td>
-				<td><center>Ksh.1000 Per ½ Kg</center></td>
-				<td><center>Description</td>
-			</tr>
-			<tr>
-				<td><img src="../cakeology/images/tiramisu_sponge_cake" alt="tiramisu_sponge_cake"width="200" height="200"/></td>
-				<td><center>Tiramisu Sponge Cake</center></td>
-				<td><center>Price</center></td>
-				<td><center>Description</td>
-			</tr>
-			<tr>
-				<td><img src="../cakeology/images/coffee_walnut_cake" alt="coffee_walnut_cake"width="200" height="200"/></td>
-				<td><center>Coffee Walnut Cake</center></td>
-				<td><center>Price</center></td>
-				<td><center>Description</td>
-			</tr>
-			<tr>
-				<td><img src="../cakeology/images/carrot_cake" alt="carrot_cake"width="200" height="200"/></td>
-				<td><center>Carrot Cake</center></td>
-				<td><center>Price</center></td>
-				<td><center>Description</td>
-			</tr>
-			<tr>
-				<td><img src="../cakeology/images/red_velvet_cake" alt="red_velvet_cake"width="200" height="200"/></td>
-				<td><center>Red Velvet Cake</center></td>
-				<td><center>Price</center></td>
-				<td><center>Description</td>
-			</tr>
-			<tr>
-				<td><img src="../cakeology/images/fruit_cake" alt="fruit_cake"width="200" height="200"/></td>
-				<td><center>Fruit Cake</center></td>
-				<td><center>Price</center></td>
-				<td><center>Description</td>
-			</tr>
-			<tr>
-				<td><img src="../cakeology/images/vanilla_flavoured_cake" alt="vanilla_flavoured_cake"width="200" height="200"/></td>
-				<td><center>Vanilla Flavoured Cake</center></td>
-				<td><center>Price</center></td>
-				<td><center>Description</td>
-			</tr>
-			<tr>
-				<td><img src="../cakeology/images/lemon_flavoured_cake" alt="lemon_flavoured_cake"width="200" height="200"/></td>
-				<td><center>Lemon Flavoured Cake</center></td>
-				<td><center>Price</center></td>
-				<td><center>Description</td>
-			</tr>
-			<tr>
-				<td><img src="../cakeology/images/cheese_cake" alt="cheese_cake"width="200" height="200"/></td>
-				<td><center>Cheese Cake</center></td>
-				<td><center>Price</center></td>
-				<td><center>Description</td>
-			</tr>
-			<tr>
-				<td><img src="../cakeology/images/strawberry_cheese_cake" alt="strawberry_cheese_cake"width="200" height="200"/></td>
-				<td><center>Strawberry Cheese Cake</center></td>
-				<td><center>Price</center></td>
-				<td><center>Description</td>
-			</tr>
-			<tr>
-				<td><img src="../cakeology/images/ferrero_choco-nut_cake" alt="ferrero_choco-nut_cake"width="200" height="200"/></td>
-				<td><center>Ferrero Choco-Nut Cake/</center></td>
-				<td><center>Price</center></td>
-				<td><center>Description</td>
-			</tr>
-			<tr>
-				<td><img src="../cakeology/images/strawberry_gateux_cake" alt="strawberry_gateux_cake"width="200" height="200"/></td>
-				<td><center>Strawberry Gateux Cake</center></td>
-				<td><center>Price</center></td>
-				<td><center>Description</td>
-			</tr>
-			<tr>
-				<td><img src="../cakeology/images/birthday_cake" alt="birthday_cake"width="200" height="200"/></td>
-				<td><center>Birthday Cake</center></td>
-				<td><center>Price</center></td>
-				<td><center>Description</td>
-			</tr>
-			<tr>
-				<td><img src="../cakeology/images/wedding_cake" alt="wedding_cake"width="200" height="200"/></td>
-				<td><center>Wedding Cake</center></td>
-				<td><center>Price</center></td>
-				<td><center>Description</td>
-			</tr>
-			<tr>
-				<td><img src="../cakeology/images/corporate_celebration_cake" alt="corporate_celebration_cake"width="200" height="200"/></td>
-				<td><center>Corporate Celebration Cake</center></td>
-				<td><center>Price</center></td>
-				<td><center>Description</td>
-			</tr>
-			<tr>
-				<td><img src="../cakeology/images/vegetarian_cake" alt="vegetarian_cake"width="200" height="200"/></td>
-				<td><center>Vegeterian Cake</center></td>
-				<td><center>Price</center></td>
-				<td><center>Description</td>
-			</tr>
-			<tr>
-				<td><img src="../cakeology/images/rasmalai_cake" alt="rasmalai_cake"width="200" height="200"/></td>
-				<td><center>Rasmalai Cake</center></td>
-				<td><center>Price</center></td>
-				<td><center>Description</td>
-			</tr>
-			<tr>
-				<td><img src="../cakeology/images/cupcakes" alt="cupcakes"width="200" height="200"/></td>
-				<td><center>Cupcakes</center></td>
-				<td><center>Ksh.480 For 6</center></td>
-				<td><center>Description</td>
-			</tr>
-			<tr>
-				<td><img src="../cakeology/images/gluten_free_cake" alt="gluten_free_cake"width="200" height="200"/></td>
-				<td><center>Gluten Free Cake</center></td>
-				<td><center>Price</center></td>
-				<td><center>Description</td>
-			</tr>
-			<tr>
-				<td><img src="../cakeology/images/flavoured_custom_bread" alt="flavoured_custom_bread"width="200" height="200"/></td>
-				<td><center>Flavoured/Custom Bread</center></td>
-				<td><center>Price</center></td>
-				<td><center>Description</td>
-			</tr>
-			<tr>
-				<td><img src="../cakeology/images/gluten_free_flavoured_custom_bread" alt="gluten_free_flavoured_custom_bread"width="200" height="200"/></td>
-				<td><center>Gluten Free Flavoured/Custom Bread</center></td>
-				<td><center>Price</center></td>
-				<td><center>Description</td>
-			</tr>
-			<tr>
-				<td><img src="../cakeology/images/flavoured_biscuits" alt="flavoured_biscuits"width="200" height="200"/></td>
-				<td><center>Flavoured Biscuits</center></td>
-				<td><center>Price</center></td>
-				<td><center>Description</td>
-			</tr>
-			<tr>
-				<td><img src="../cakeology/images/cinnamon_rolls" alt="cinnamon_rolls"width="200" height="200"/></td>
-				<td><center>Cinnamon Rolls</center></td>
-				<td><center>Ksh.1000 For 12</center></td>
-				<td><center>Description</td>
-			</tr>
-			<tr>
-				<td><img src="../cakeology/images/pepper_buns" alt="pepper_buns"width="200" height="200"/></td>
-				<td><center>Pepper Buns</center></td>
-				<td><center>Price</center></td>
-				<td><center>Description</td>
-			</tr>
-			<tr>
-				<td><img src="../cakeology/images/chicken_pies" alt="chicken_pies"width="200" height="200"/></td>
-				<td><center>Chicken Pies</center></td>
-				<td><center>Ksh.100 For _</center></td>
-				<td><center>Description</td>
-			</tr>
-			<tr>
-				<td><img src="../cakeology/images/meat_pies" alt="meat_pies"width="200" height="200"/></td>
-				<td><center>Meat Pies</center></td>
-				<td><center>Ksh.80 For _</center></td>
-				<td><center>Description</td>
-			</tr>
-			<tr>
-				<td><img src="../cakeology/images/eclairs" alt="eclairs"width="200" height="200"/></td>
-				<td><center>Eclairs</center></td>
-				<td><center>Ksh.450 For 6</center></td>
-				<td><center>Description</td>
-			</tr>
-			<tr>
-				<td><img src="../cakeology/images/cake_sickles" alt="cake_sickles"width="200" height="200"/></td>
-				<td><center>Cake Sickles</center></td>
-				<td><center>Ksh.300 For 2</center></td>
-				<td><center>Description</td>
-			</tr>
-			<tr>
-				<td><img src="../cakeology/images/chocolate_balls" alt="chocolate_balls"width="200" height="200"/></td>
-				<td><center>Chocolate Balls</center></td>
-				<td><center>Ksh.150 For 6</center></td>
-				<td><center>Description</td>
-			</tr>
-			<tr>
-				<td><img src="../cakeology/images/coconut_macarous" alt="coconut_macarous"width="200" height="200"/></td>
-				<td><center>Coconut Macarous</center></td>
-				<td><center>Ksh.180 For 6</center></td>
-				<td><center>Description</td>
-			</tr>
-		</tbody>
+			
+      <div class="columns">
+               
+  <ul class="price">
+    <li class="header">Strawberry Cheese Cake</li>
+    <li class="grey"><label>Price</label><br style="font-size:">Ksh.1000 Per ½ Kg</li>
+    <li class="grey"><a href="contact.html" class="button">BUY NOW!!!</a></li>
+      
+    </ul>
+          
+      </div>
+      <div class="columns">
+               
+  <ul class="price">
+    <li class="header">Ferrero Choco-Nut Cake</li>
+    <li class="grey"><label>Price</label><br style="font-size:">Ksh.1000 Per ½ Kg</li>
+    <li class="grey"><a href="contact.html" class="button">BUY NOW!!!</a></li>
+      
+    </ul>
+          
+      </div> 
+      <div class="columns">
+               
+  <ul class="price">
+    <li class="header">Strawberry Gateux Cake</li>
+    <li class="grey"><label>Price</label><br style="font-size:">Ksh.1000 Per ½ Kg</li>
+    <li class="grey"><a href="contact.html" class="button">BUY NOW!!!</a></li>
+      
+    </ul>
+          
+      </div>
+      <div class="columns">
+               
+  <ul class="price">
+    <li class="header">Birthday Cake</li>
+    <li class="grey"><label>Price</label><br style="font-size:">Ksh.1000 Per ½ Kg</li>
+    <li class="grey"><a href="contact.html" class="button">BUY NOW!!!</a></li>
+      
+    </ul>
+          
+      </div>
+      <div class="columns">
+               
+  <ul class="price">
+    <li class="header">Wedding Cake</li>
+    <li class="grey"><label>Price</label><br style="font-size:">Ksh.1000 Per ½ Kg</li>
+    <li class="grey"><a href="contact.html" class="button">BUY NOW!!!</a></li>
+      
+    </ul>
+          
+      </div>
+      <div class="columns">
+               
+  <ul class="price">
+    <li class="header">Corporate Celebration Cake</li>
+    <li class="grey"><label>Price</label><br style="font-size:">Ksh.1000 Per ½ Kg</li>
+    <li class="grey"><a href="contact.html" class="button">BUY NOW!!!</a></li>
+      
+    </ul>
+          
+      </div>
+      
+    <div class="columns">
+               
+  <ul class="price">
+    <li class="header">Vegeterian Cake</li>
+    <li class="grey"><label>Price</label><br style="font-size:">Ksh.1000 Per ½ Kg</li>
+    <li class="grey"><a href="contact.html" class="button">BUY NOW!!!</a></li>
+      
+    </ul>
+          
+      </div> 
+      
+      <div class="columns">
+               
+  <ul class="price">
+    <li class="header">Rasmalai Cake</li>
+    <li class="grey"><label>Price</label><br style="font-size:">Ksh.1000 Per ½ Kg</li>
+    <li class="grey"><a href="contact.html" class="button">BUY NOW!!!</a></li>
+      
+    </ul>
+          
+      </div>
+      <div class="columns">
+               
+  <ul class="price">
+    <li class="header">Cupcakes</li>
+    <li class="grey"><label>Price</label><br style="font-size:">Ksh.480 for 6</li>
+    <li class="grey"><a href="contact.html" class="button">BUY NOW!!!</a></li>
+      
+    </ul>
+          
+      </div>
+     <div class="columns">
+               
+  <ul class="price">
+    <li class="header">Gluten Free Cake</li>
+    <li class="grey"><label>Price</label><br style="font-size:">Ksh.480 for 6</li>
+    <li class="grey"><a href="contact.html" class="button">BUY NOW!!!</a></li>
+      
+    </ul>
+          
+      </div> 
+      <div class="columns">
+               
+  <ul class="price">
+    <li class="header">Flavoured/Custom Bread</li>
+    <li class="grey"><label>Price</label><br style="font-size:">Ksh.480 for 6</li>
+    <li class="grey"><a href="contact.html" class="button">BUY NOW!!!</a></li>
+      
+    </ul>
+          
+      </div>
+      <div class="columns">
+               
+  <ul class="price">
+    <li class="header">Gluten Free Flavoured/Custom Bread</li>
+    <li class="grey"><label>Price</label><br style="font-size:">Ksh.480 for 6</li>
+    <li class="grey"><a href="contact.html" class="button">BUY NOW!!!</a></li>
+      
+    </ul>
+          
+      </div>
+      <div class="columns">
+               
+  <ul class="price">
+    <li class="header">Flavoured Biscuits</li>
+    <li class="grey"><label>Price</label><br style="font-size:">Ksh.480 for 6</li>
+    <li class="grey"><a href="contact.html" class="button">BUY NOW!!!</a></li>
+      
+    </ul>
+          
+      </div>
+      
+      <div class="columns">
+               
+  <ul class="price">
+    <li class="header">Cinnamon Rolls</li>
+    <li class="grey"><label>Price</label><br style="font-size:">Ksh.1000 for 12</li>
+    <li class="grey"><a href="contact.html" class="button">BUY NOW!!!</a></li>
+      
+    </ul>
+          
+      </div>
+      
+      <div class="columns">
+               
+  <ul class="price">
+    <li class="header">Pepper Buns</li>
+    <li class="grey"><label>Price</label><br style="font-size:">Ksh.1000 for 12</li>
+    <li class="grey"><a href="contact.html" class="button">BUY NOW!!!</a></li>
+      
+    </ul>
+          
+      </div>
+      
+      <div class="columns">
+               
+  <ul class="price">
+    <li class="header">Chicken Pies</li>
+    <li class="grey"><label>Price</label><br style="font-size:">Ksh.100 for _</li>
+    <li class="grey"><a href="contact.html" class="button">BUY NOW!!!</a></li>
+      
+    </ul>
+          
+      </div>
+      
+      <div class="columns">
+               
+  <ul class="price">
+    <li class="header">Meat Pies</li>
+    <li class="grey"><label>Price</label><br style="font-size:">Ksh.80 for _</li>
+    <li class="grey"><a href="contact.html" class="button">BUY NOW!!!</a></li>
+      
+    </ul>
+          
+      </div>
+      
+    <div class="columns">
+               
+  <ul class="price">
+    <li class="header">Eclairs</li>
+    <li class="grey"><label>Price</label><br style="font-size:">Ksh.450 for 6</li>
+    <li class="grey"><a href="contact.html" class="button">BUY NOW!!!</a></li>
+      
+    </ul>
+          
+      </div> 
+      
+      <div class="columns">
+               
+  <ul class="price">
+    <li class="header">Cake Sickles</li>
+    <li class="grey"><label>Price</label><br style="font-size:">Ksh.300 for 2</li>
+    <li class="grey"><a href="contact.html" class="button">BUY NOW!!!</a></li>
+      
+    </ul>
+          
+      </div>
+      
+      <div class="columns">
+               
+  <ul class="price">
+    <li class="header">Chocolate Balls</li>
+    <li class="grey"><label>Price</label><br style="font-size:">Ksh.150 for 6</li>
+    <li class="grey"><a href="contact.html" class="button">BUY NOW!!!</a></li>
+      
+    </ul>
+          
+      </div>
+      <div class="columns">
+               
+  <ul class="price">
+    <li class="header">Coconut Macarous</li>
+    <li class="grey"><label>Price</label><br style="font-size:">Ksh.180 for 6</li>
+    <li class="grey"><a href="contact.html" class="button">BUY NOW!!!</a></li>
+      
+    </ul>
+          
+      </div>
+    
 
-	</ul>
-
-</div>
-
-</body>
+	
 
 <div>
 
@@ -263,5 +492,6 @@
 </footer></center>
 
 </div>
-
+    </div>
+    </body>
 </html>
