@@ -424,3 +424,8 @@ div.products table{
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
+
+footer{
+   background-color: #f2f2f2;
+   padding: 1px; 
+}   
