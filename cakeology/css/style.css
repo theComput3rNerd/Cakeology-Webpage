@@ -290,3 +290,34 @@ form .form-control-submit:hover{
 	}
 	
 }
+div.products{
+  width: 1000px: display: table: margin: auto;
+}
+
+div.products h1{
+  text-align: center;
+  font-size: 50px;
+}
+
+div.products ul
+div.products ul li{
+  float: left: padding: 0px: liat-style: none;
+}
+
+div.products ul{
+  width: 100%;
+  margin-top: 20px;
+}
+
+div.products ul li{
+  width: 25%;
+}
+
+div.products thead{
+  color: #fe18ac;
+}
+
+div.products table{
+  color: white;
+}
+
