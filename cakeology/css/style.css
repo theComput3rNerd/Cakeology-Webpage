@@ -218,11 +218,15 @@ form .form-control-submit	{
 					background: #15161b;
 					border-color: transparent;
 					color: #fff;
-					font-size: 20px;
+					font-size: 24px;
 					letter-spacing: 2px;
 					height: 50px;
-					margin-top: 20px;
+					margin-top: 0px;
 					font-family: calibri light;
+          box-shadow: 0 9px #999;
+          border-radius: 15px;
+          padding: 15px 25px;
+          text-align: center;
 				}
 form .form-control-submit:hover{
 					color: #f91ca7;
@@ -320,7 +324,11 @@ div.products thead{
 div.products table{
   color: white;
 }
-    .bottomleft {
+
+
+/*Start of Products CSS*/
+
+.bottomleft {
   position: absolute;
   bottom: 0;
   left: 16px;
@@ -330,6 +338,7 @@ div.products table{
 }
 
 /* Create three columns of equal width */
+
 .columns {
   float: left;
   width: 33.3%;
@@ -395,117 +404,23 @@ div.products table{
     width: 100%;
   }
 }
-             .button {
-  padding: 15px 25px;
-  font-size: 24px;
-  text-align: center;
-  cursor: pointer;
-  outline: none;
-  color: #fff;
-  background-color:black;
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 9px #999;
-}
 
-.button:hover {background-color: deeppink}
-
-.button:active {
-  background-color: darkblue;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}    .bottomleft {
-  position: absolute;
-  bottom: 0;
-  left: 16px;
-}
-* {
-  box-sizing: border-box;
-}
-
-/* Create three columns of equal width */
-.columns {
-  float: left;
-  width: 33.3%;
-  padding: 8px;
-}
-
-/* Style the list */
-.price {
-  list-style-type: none;
-  border: 1px solid #eee;
-  margin: 0;
-  padding: 0;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-}
-
-/* Add shadows on hover */
-.price:hover {
-  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
-}
-
-/* Pricing header */
-.price .header {
-  background-color: #111;
-  color: white;
-  font-size: 25px;
-}
-            
-.header1 {
-  background-color: deeppink;
-  color: white;
-  font-size: 20px;
-}
-
-/* List items */
-.price li {
-  border-bottom: 1px solid #eee;
-  padding: 20px;
-  text-align: center;
-}
-
-/* Grey list item */
-.price .grey {
-  background-color: #eee;
-  font-size: 20px;
-}
-
-/* The "Sign Up" button */
 .button {
-  background-color: blue;
-  border: none;
-  color: white;
-  padding: 10px 25px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 18px;
-}
-
-/* Change the width of the three columns to 100% 
-(to stack horizontally on small screens) */
-@media only screen and (max-width: 600px) {
-  .columns {
-    width: 100%;
-  }
-}
-             .button {
   padding: 15px 25px;
   font-size: 24px;
   text-align: center;
   cursor: pointer;
   outline: none;
   color: #fff;
-  background-color:black;
+  background-color: #14151a;
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px #999;
 }
 
-.button:hover {background-color: deeppink}
+.button:hover {color: deeppink}
 
 .button:active {
-  background-color: darkblue;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
