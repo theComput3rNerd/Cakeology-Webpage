@@ -344,8 +344,21 @@ div.products table{
   padding: 8px;
 }
 
+/*Style the Index Page's Columns*/
 .index-columns{
-  width: 25%;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+    padding: 10px;
+}
+
+.index-row{
+    display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
 }
 
 /* Style the list */
@@ -365,7 +378,7 @@ div.products table{
 
 /* Pricing header */
 .price .header {
-  background-color: #111;
+  background-color: #15161B;
   color: white;
   font-size: 25px;
 }
