@@ -4,7 +4,7 @@
 	$message = $=POST['message'];
 	
 	
-	$email_from = 'cakeology.com';
+	$email_from = 'cakeologywithjumana.com';
 	
 	$email_subject = "New Form Cakeology. Website";
 	
@@ -13,7 +13,7 @@
 						"User Message: $message.\n";
 	
 	
-	$to = "bespokecakes@gmail.com";
+	$to = "customer-reply@cakeologywithjumana.com";
 	
 	$headers = "From: $emal_from \r\n";
 	
