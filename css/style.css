@@ -569,3 +569,6 @@ body, html {
   text-decoration: none;
   color: #15161B;
 }
+.email-me:hover{
+  color: #EE4E79;
+}
